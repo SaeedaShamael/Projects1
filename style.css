@@ -1,0 +1,515 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+
+/* Navbar starts */
+
+nav {
+    background-color: white;
+    padding: 20px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    /* border: 2px solid red; */
+    /* margin: 20px; */
+    display: inline;
+    margin-left: 230px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 25px;
+    color: black;
+    transition: color .7s;
+}
+
+nav ul li a:hover
+{
+    color: green;
+}
+
+.navbar-icons {
+    /* border: 2px solid purple; */
+    margin-left: 25px;
+    display: inline;
+    border-left: 1px solid gray;
+    padding-left: 20px;
+}
+
+.navbar-logo
+{
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 115px;
+    color: black;
+}
+
+.navbar-icons a
+{
+    margin-left: 13px;
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+}
+
+
+/* Navbar ends */
+
+/* Banner starts */
+.banner
+{
+    height: 700px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://bootstrapmade.com/demo/templates/Company/assets/img/slide/slide-2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.banner-content
+{
+    border-top: 7px solid green;
+    width: 760px;
+    background-color: rgba(0, 0, 0, 0.62);
+    color: white;
+    padding: 25px;
+    padding-bottom: 40px;
+}
+
+.banner-content p
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    line-height: 24px;
+}
+
+.banner-content a
+{
+    border: 2px solid green;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-left: 280px;
+    font-weight: bold;
+    font-size: 14px;
+    transition: background-color .6s;
+}
+
+.banner-content a:hover
+{
+    background-color: green;
+}
+/* Banner ends */
+
+/* Company Listing starts */
+.listing
+{
+    /* border: 2px solid red; */
+    margin: 50px 100px;
+    display: flex;
+}
+.listing-div1,.listing-div2
+{
+    /* border: 2px solid green; */
+    margin: 30px;
+    width: 50%;
+}
+
+.listing-div1 h1
+{
+    font-size: 40px;
+    line-height: 53px;
+    margin-bottom: 20px;
+    color: rgb(83, 84, 84);
+}
+.listing-div1 h3{
+
+    color: rgb(83, 84, 84);
+}
+
+.listing-div2 ul
+{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    list-style-type:none;
+}
+.listing-div2 ul li
+{
+    margin-bottom: 20px;
+    color: gray;
+}
+.listing-div2 p
+{
+    font-size: 17px;
+    color: gray;
+}
+.fa-check
+{
+    color: green;
+}
+/* Company Listing ends */
+
+/* Icon starts */
+.list
+{
+    /* border: 2px solid red; */
+    margin: 30px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(203, 200, 200, 0.182);
+    justify-content: space-around;
+    padding: 40px 80px;
+}
+.list-item
+{
+    /* border: 2px solid green; */
+    height: 350px; 
+    width: 350px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.list-content
+{
+    /* border: 2px solid tomato; */
+    margin: 20px;
+    text-align: center;
+}
+.list-content i
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+.list-content h2
+{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.list-content p
+{
+    color: gray;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.list-content .icon
+{
+    background-color: rgba(211, 211, 211, 0.292);
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    border-radius: 100%;
+}
+.fa-dribbble
+{
+    color: rgb(15, 191, 191);
+}
+
+.fa-file-text-o
+{
+    color: orangered;
+}
+.fa-tachometer
+{
+    color: crimson;
+}
+.fa-play
+{
+    color: orange;
+}
+.fa-slideshare
+{
+    color: rgba(255, 0, 0, 0.838);
+}
+.fa-archive
+{
+    color: rgb(37, 158, 244);
+}
+
+.list-item:hover
+{
+    box-shadow: 2px 2px 40px 2px rgba(211, 211, 211, 0.456);
+}
+.list-item:hover .icon1
+{
+    background-color: rgb(15, 191, 191);
+}
+.list-item:hover .fa-dribbble
+{
+    color:white ;
+}
+
+.list-item:hover .icon2
+{
+    background-color: orangered;
+}
+.list-item:hover .fa-file-text-o
+{
+    color:white ;
+}
+/* Icon ends */
+
+/* gallery starts */
+    .gallery
+    {
+        /* border: 2px solid red; */
+        margin: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .image
+    {
+        /* border: 2px solid purple; */
+        margin: 20px;
+        width: 350px;
+        height: 350px;
+        position: relative;
+    }
+
+    .image img
+    {
+        height: 100%;
+        width: 100%;
+    } 
+
+    .image div
+    {
+        width: 90%;
+        height: 20px;
+        background-color: rgba(255, 255, 255, 0.687);
+        position: absolute;
+        bottom: 20px;
+        margin-left: 18px;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        visibility: hidden;
+        transition: height .5s;
+    }
+
+    .image:hover div
+    {
+        visibility: visible;
+        height: 100px;
+    }
+
+/* gallery ends */
+
+/* clients starts */
+    .clients
+    {
+        /* border: 2px solid red; */
+        margin: 80px;
+    }
+    .client-images
+    {
+        /* border: 2px solid purple; */
+        margin: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .client-image
+    {
+        border: 1px solid lightgray;
+        width: 280px;
+        text-align: center;
+        padding: 30px;
+    }
+    .client-image img
+    {
+        height: 40px;
+        width: 100px;
+        filter: grayscale(100%);
+        transition: transform 1s;
+    }
+
+    .client-image:hover img
+    {
+        filter: none;
+        transform: scale(1.2);
+    }
+
+    .clients h1
+    {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .clients hr
+    {
+        width: 50px;
+        height: 6px;
+        background-color: green;
+        margin: 20px auto;
+        margin-bottom: 35px;
+    }
+/* clients ends */
+
+/* footer starts */
+footer
+{
+    background-color: black;
+    color: white;
+}
+.footer-address
+{
+    /* border: 2px solid red; */
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-address div
+{
+    /* border: 2px solid yellow; */
+    margin: 20px;
+    padding: 20px;
+}
+.footer-address div:nth-child(1)
+{
+    width: 250px;
+}
+.footer-address div:nth-child(2)
+{
+    width: 200px;
+    margin-left: 50px;
+}
+.footer-address div:nth-child(3)
+{
+    width: 200px;
+}
+
+.footer-address div:last-child
+{
+    width: 500px;
+}
+
+
+.footer-address p,.footer-address li
+{
+    font-family: calibri light;
+    color: rgb(142, 138, 138)tgray;
+}
+.footer-address li
+{
+    margin-top: 20px;
+    list-style: none;
+}
+.fa-chevron-right
+{
+    color: green;
+    font-size: 15px;
+}
+.footer-copy-right
+{
+    /* border: 2px solid red; */
+    margin: 50px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-copy-right div
+{
+    /* border: 2px solid yellow; */
+    margin: 20px;
+    width: 400px;
+}
+.footer-copy-right .icons
+{
+    text-align: right;
+}
+.footer-copy-right .icons a
+{
+    text-decoration: none;
+}
+.footer-copy-right .icons i
+{
+    margin-left: 10px;
+    font-size: 25px;
+    color: white;
+}
+.address
+{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.sub-para
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.subscribe
+{
+    /* border: 2px solid green!important; */
+    width: 100%!important;
+    margin-left: -20px!important;
+}
+.subscribe input
+{
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+    position: relative;
+   
+}
+
+.subscribe button
+{
+    padding: 15px;
+    outline: none;
+    border-radius: 0px 4px 4px 0px;
+    border: none;
+    background-color: green;
+    color: white;
+    position: absolute;
+    right: 93px;
+}
+/* footer ends */
+
+/* scroll arrow starts */
+.scroll-arrow button
+{
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    font-size: 40px;
+    border-radius: 3px;
+    padding: 3px 6px;
+    width: 50px;
+    border: none;
+position: fixed;
+bottom: 80px;
+right: 10px;
+}
+/* scroll arrow ends */
